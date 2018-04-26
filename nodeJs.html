@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>NODE JS</title>
+	<link rel="stylesheet" href="css/materialize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+	
+</head>
+
+<body>
+	<div id="menu">
+		<div id="leftoptions">
+			<a href="#box1" id="link1" title="">Définition</a>
+			<a href="#box2" id="link2" title="">Utilité</a>
+		</div>
+		
+		<div id="logo"><a href="index.html">Node Js</a></div>
+		
+		<div id="rightoptions">
+			<a href="#box3" id="link3" title="">Concepts</a>
+			<a href="#box4" id="link4" title="">Domaine</a>
+		</div>
+	</div>
+	<div id="box1">
+		
+		<div class="col s6 offset-s3 card-panel dark  wow fadeInLeft" data-duration="3s">
+		 <blockquote>
+  Node.js est une plateforme :<br>
+▶ permettant d’écrire des applications;<br>
+▶ basée sur le langage JavaScript (et l’interpréteur de Chrome);<br>
+▶ adaptée à la programmation de serveur Web;
+    </blockquote>
+    </div>
+
+
+	</div>
+<div id="box2">
+		<div class="row">
+		<div class="col s6 offset-s3 card-panel dark  wow fadeInUp" data-duration="3s">
+		     <ul class="collapsible popout">
+    <li>
+      <div class="collapsible-header">Asynchronous and Event Driven</div>
+      <div class="collapsible-body">Toutes les API de la bibliothèque Node.js sont asynchrones,
+c'est-à-dire non bloquant. Cela signifie essentiellement qu'un serveur basé sur Node.js n'attend jamais
+de réponse de la part d'un API pour renvoyer des données. Le serveur passe à l'API suivante après l'avoir appelée et le mécanisme de notification  d'événements de Node.js aide le serveur à obtenir une réponse concernant le dernier appel de l'API.</div>
+    </li>
+    <li>
+      <div class="collapsible-header">Very Fast</div>
+      <div class="collapsible-body"> Etant construit sur le moteur JavaScript V8 de Google Chrome, la bibliothèque Node.js est
+très rapide dans l'exécution de code.</div>
+    </li>
+    <li>
+      <div class="collapsible-header">No Buffering</div>
+      <div class="collapsible-body">
+Les applications Node.js ne mettent jamais de données en mémoire tampon. Ces applications vont simplement
+sortir les données en morceaux.</div>
+    </li>
+ 
+  </ul>
+
+	</div>
+	</div>
+	</div>
+	<div id="box3">
+			<div class="row">
+
+	<div class="col s8 offset-s2 card-panel dark  wow fadeInDown" data-duration="3s">
+		<img src="img/concept.png" alt="" height="400">
+	</div>
+	</div>
+	</div>
+	<div id="box4">
+		<div class="col s6 card-panel dark  wow fadeInLeft" data-duration="2s">
+		    <ul class="collection with-header">
+<li class="collection-header"><h4>Ou utiliser Node Js?</h4> </li>
+<li class="collection-item" >Applications liées aux E / S</li>
+<li class="collection-item" >Applications de diffusion de données (Streaming)</li>
+<li class="collection-item" >Applications Single Page</li>
+</ul>
+    </div>
+	</div>
+<div class="fixed-action-btn">
+  <a class="btn-floating btn-pulse pulse btn-large modal-trigger btn tooltipped teal" data-position="left" data-tooltip="Quelques Frameworks"  href="#frameworks" >
+    <i class="large material-icons">list</i>
+  </a>
+</div>
+<div id="frameworks" class="modal bottom-sheet">
+    <div class="modal-content">
+      <h4>Exemples de Frameworks Javascript</h4>
+      	 <table class="centered highlight">
+        <thead>
+          <tr>
+              <th>Nom</th>
+              <th>Définition</th>
+              <th>Apparition</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Angular 2</td>
+            <td>MVC Framework</td>
+            <td>2016</td>
+          </tr>
+          <tr>
+            <td>React Js</td>
+            <td>Javascript Library</td>
+            <td>2013</td>
+          </tr>
+          <tr>
+            <td>Ember Js</td>
+            <td>MVC Framework</td>
+            <td>2011</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+<script src="js/jquery.js"></script>
+<script src="js/wow.js"></script>
+<script type="text/javascript">hljs.initHighlightingOnLoad();</script>
+<script src="js/materialize.js"</script>
+<script src="js/main.js"></script>
+
+<script type="text/javascript">
+	  $(document).ready(function(){
+    $('.collapsible').collapsible();
+    	 new WOW().init();
+    	 $('.modal').modal();
+    	  $('.tooltipped').tooltip();
+  });
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>JQuery</title>
+	<link rel="stylesheet" href="css/materialize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+	
+</head>
+
+<body>
+	<div id="menu">
+		<div id="leftoptions">
+			<a href="#box1" id="link1" title="">Définition</a>
+			<a href="#box2" id="link2" title="">Utilité</a>
+		</div>
+		
+		<div id="logo"><a href="index.html">jQuery</a></div>
+		
+		<div id="rightoptions">
+			<a href="#box3" id="link3" title="">Inclusion</a>
+			<a href="#box4" id="link4" title="">Utilisation</a>
+		</div>
+	</div>
+	<div id="box1">
+		<div class="row">
+		<div class="col s6 offset-s3 card-panel dark wow fadeInUp" data-wow-duration="2s">
+		 <blockquote>
+    Jquery est une librairie JS tres rapide et tres precise creee pae John Resig en 2006 avec une belle devise :<i> Write Less Do More.</i>C’est un outil js qui a ete concu pour simplifier des taches diversifiees en ecrivant moins de code.
+    </blockquote>
+    </div>
+
+</div>
+	</div>
+	<div id="box2">
+		<div class="row">
+		<div class="col s6 offset-s3 card-panel dark wow fadeInUp" data-wow-duration="2s">
+		     <ul class="collapsible popout">
+    <li>
+      <div class="collapsible-header">DOM manipulation</div>
+      <div class="collapsible-body">jQuery a rendu facile l’acces aux elements du DOM en donnant la possibilite de les selectionner et de les modifier</div>
+    </li>
+    <li>
+      <div class="collapsible-header">Event-handling</div>
+      <div class="collapsible-body"> jQuery offre un elegant moyen de gerer une large gamme d’evenements comme le fait que l’utilisateur clique sur un boutton sans avoir a toucher au code html.</div>
+    </li>
+    <li>
+      <div class="collapsible-header">Animations</div>
+      <div class="collapsible-body">jQuery vient avec beaucoup d’effets d’animations déjà predefinies qu’on peut utiliser sur notre site web </div>
+    </li>
+      <li>
+      <div class="collapsible-header">Lightweight</div>
+      <div class="collapsible-body">jQuery est une librairie tres legere - environ 19KB en taille 
+ Cross Browser Support: jQuery a le support cross-browser  et marche bien sur a IE 6.0+, FF 2.0+, Safari 3.0+, Chrome et Opera 9.0+</div>
+    </li>
+    <li>
+      <div class="collapsible-header">AJAX Support</div>
+      <div class="collapsible-body"> jQuery  aide beaucoup a developper des sites tres responsives en utilisant la technologie AJAX</div>
+    </li>
+  </ul>
+
+	</div>
+	</div>
+	</div>
+	<div id="box3">
+		 <ul class="collapsible popout wow fadeInDown" data-wow-duration="2s">
+		    <li>
+		      <div class="collapsible-header">Méthode 1 ||  Télécharger et Inclure</div>
+		      <div class="collapsible-body">
+							<div class="col s6 offset-s3 card-panel dark" >
+		      	<blockquote>
+		      		Aller a la page https://jquery.com/download/ pour telecharger la derniere version dispo
+
+Maintenant inserer le fichier  jquery-2.1.3.min.js telecharge dans un dossier de notre projet
+		      	</blockquote>
+
+							<img src="img/jquery2.png" alt="">
+						</div>
+		   
+		      </div>
+		    </li>
+		    <li>
+		      <div class="collapsible-header">Méthode 2 || Utiliser le CDN (Content Delivery Network)</div>
+		      <div class="collapsible-body">
+		      		<img src="img/jquery.png" alt="">
+		 
+		      </div>
+		    </li>
+		  </ul>
+	</div>
+	<div id="box4">
+		 <ul class="collapsible popout  wow fadeInRight" data-wow-duration="2s">
+		    <li>
+		      <div class="collapsible-header">Appeler une fonction de la librairie .</div>
+		      <div class="collapsible-body">
+		      		<img src="img/jquerycall.png" alt="">
+		 
+		      </div>
+		    </li>   
+		  </ul>
+	</div>
+<div class="fixed-action-btn">
+  <a class="btn-floating btn-pulse pulse btn-large modal-trigger btn tooltipped teal" data-position="left" data-tooltip="Quelques Frameworks"  href="#frameworks" >
+    <i class="large material-icons">list</i>
+  </a>
+</div>
+<div id="frameworks" class="modal bottom-sheet">
+    <div class="modal-content">
+      <h4>Exemples de Frameworks Javascript</h4>
+      	 <table class="centered highlight">
+        <thead>
+          <tr>
+              <th>Nom</th>
+              <th>Définition</th>
+              <th>Apparition</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Angular 2</td>
+            <td>MVC Framework</td>
+            <td>2016</td>
+          </tr>
+          <tr>
+            <td>React Js</td>
+            <td>Javascript Library</td>
+            <td>2013</td>
+          </tr>
+          <tr>
+            <td>Ember Js</td>
+            <td>MVC Framework</td>
+            <td>2011</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+<script src="js/jquery.js"></script>
+<script src="js/wow.js"></script>
+<script type="text/javascript">hljs.initHighlightingOnLoad();</script>
+<script src="js/materialize.js"</script>
+<script src="js/main.js"></script>
+
+<script type="text/javascript">
+	  $(document).ready(function(){
+    $('.collapsible').collapsible();
+    	 new WOW().init();
+    	 $('.modal').modal();
+    	  $('.tooltipped').tooltip();
+  });
+</script>
+
+
+</body>
+</html>

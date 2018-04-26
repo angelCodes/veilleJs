@@ -1,0 +1,86 @@
+	body{
+		margin: 0;
+		padding: 0;
+		overflow-x: hidden;
+	}
+	#box1,#box2,#box3,#box4{
+		height: 100vh;
+		width: 100%;
+		text-align: center;
+		font-family: arial black;
+		font-size: 20px;
+		min-height: 100%;
+		padding-top: 200px;
+		overflow-y: scroll;
+	}
+	#box1{
+		background: #20c4e5;
+		background-image: url("../img/bg5.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+	}
+	#box2{
+		background: #a80cce;
+		background-image: url("../img/bg2.jpg");
+		background-size: cover;
+		background-attachment: fixed;}
+	#box3{
+		background: #42f459;
+		background-image: url("../img/bg3.jpg");
+		background-size: cover;
+		background-attachment: fixed;
+	}
+	#box4{
+		background: gold;
+		background-image: url("../img/bg4.jpeg");
+		background-size: cover;
+		background-attachment: fixed;
+	}
+
+	#menu{
+		position: fixed;
+		top: 50px;
+		width: 100%;
+		z-index: 500000000000;
+	}
+	#leftoptions{
+		height: 60px;
+		width: 40%;
+		background-color: teal;
+		border-radius: 0px 20px 20px 0px;
+		float: left;
+		padding: 15px;
+	}
+	#rightoptions{
+		height: 60px;
+		width: 40%;
+		background-color:teal;
+		border-radius: 20px 0px 0px 20px; 
+		float: right;
+		padding: 15px;
+	}
+	a{
+		font-family: arial black;
+		font-size: 20px;
+		color: #fff;
+		text-decoration: none;
+		margin-left: 120px;
+	}
+	#logo a{
+		height: 120px;
+		width: 120px;
+		border-radius: 50%;
+		background-color: teal;
+		float: left;
+		margin-top: -30px;
+		margin-left: 80px;
+		font-family: arial black;
+		font-size: 20px;
+		color: #fff;
+		line-height: 120px;
+		text-align: center;
+	}
+
+.col{
+	opacity: 0.8;
+}

@@ -1,0 +1,684 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"over",
+				"overflow-y"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"bo",
+				"box-shadow"
+			],
+			[
+				"title",
+				"title\tAttr"
+			],
+			[
+				"blo",
+				"block"
+			],
+			[
+				"v",
+				"v-on\t@evt=\"callback\""
+			],
+			[
+				"cha",
+				"charset\tAttr"
+			],
+			[
+				"v-",
+				"v-if\t<div v-if=\"\">"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"va",
+				"value\tAttr"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"b",
+				"bolder"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"c",
+				"center"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"sty",
+				"style\tAttr"
+			],
+			[
+				"col",
+				"colspan\tAttr"
+			],
+			[
+				"he",
+				"height\tAttr"
+			],
+			[
+				"ch",
+				"charset\tAttr"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 707,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "nodeJs.html",
+			"settings":
+			{
+				"buffer_size": 4637,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "vueJs.html",
+			"settings":
+			{
+				"buffer_size": 7785,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "jquery.html",
+			"settings":
+			{
+				"buffer_size": 6819,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "javascript.html",
+			"settings":
+			{
+				"buffer_size": 7995,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "ajax.html",
+			"settings":
+			{
+				"buffer_size": 5211,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 1093,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/main.js",
+			"settings":
+			{
+				"buffer_size": 621,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: <script>"
+			]
+		],
+		"width": 567.0
+	},
+	"console":
+	{
+		"height": 143.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": true,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/var/www/html/veilleJs"
+	],
+	"file_history":
+	[
+		"/var/www/html/veilleJs/vueJs.html",
+		"/var/www/html/veilleJs/jquery.html",
+		"/var/www/html/veilleJs/javascript.html",
+		"/var/www/html/veilleJs/ajax.html",
+		"/var/www/html/veilleJs/nodeJs.html",
+		"/home/auf/Documents/Web/angel/smoothScroll.html",
+		"/var/www/html/veilleJs/styles/main.css",
+		"/var/www/html/veilleJs/scripts/main.js",
+		"/home/auf/Documents/Web/angel/flexBoxHoverCoolEffect.html",
+		"/var/www/html/DynamicCv/layouts/menu.php",
+		"/var/www/html/DynamicCv/index.php",
+		"/var/www/html/DynamicCv/layouts/breadcrumb.php",
+		"/var/www/html/DynamicCv/layouts/header.php",
+		"/var/www/html/DynamicCv/layouts/nav.php",
+		"/var/www/html/DynamicCv/layouts/footer.php",
+		"/var/www/html/DynamicCv/layouts/content.php",
+		"/var/www/html/DynamicCv/index.html",
+		"/var/www/html/test/src/app/app.html",
+		"/var/www/html/test/src/pages/about/about.html",
+		"/var/www/html/test/src/pages/about/about.scss",
+		"/var/www/html/UserManager/application/controllers/Admins.php",
+		"/var/www/html/GEST_USER/application/config/config.php",
+		"/var/www/html/vueJs/js/main3.js",
+		"/var/www/html/vueJs/index3.html",
+		"/var/www/html/vueJs/js/timer.js",
+		"/var/www/html/vueJs/timer.html",
+		"/var/www/html/vueJs/js/main2.js",
+		"/var/www/html/vueJs/index2.html",
+		"/var/www/html/vueJs/index.html",
+		"/home/auf/.config/sublime-text-3/Packages/Colorcoder/colorcoder.sublime-settings",
+		"/var/www/html/vueJs/js/main.js",
+		"/var/www/html/vueJs/styles/main.css",
+		"/var/www/html/GesTech/view/AddFacture.php",
+		"/var/www/html/GesTech/login.php",
+		"/var/www/html/GesTech/view/ListeAchat.php",
+		"/var/www/html/recherche/database.html",
+		"/var/www/html/UserManager/application/config/routes.php",
+		"/var/www/html/UserManager/application/views/users/login.php",
+		"/var/www/html/UserManager/application/controllers/Users.php",
+		"/var/www/html/UserManager/application/controllers/Welcome.php",
+		"/var/www/html/UserManager/assets/css/connection.css",
+		"/var/www/html/UserManager/application/views/users/account.php",
+		"/var/www/html/UserManager/application/views/users/registration.php",
+		"/home/auf/Documents/Web/angel/custonCheckboxWithCss.html",
+		"/var/www/html/UserManager/assets/css/bootstrap.min.css",
+		"/var/www/html/UserManager/application/config/config.php",
+		"/var/www/html/Ci_User/application/config/database.php",
+		"/var/www/html/Ci_User/application/controllers/Users.php",
+		"/var/www/html/Ci_User/application/models/User.php",
+		"/var/www/html/Ci_User/application/views/users/account.php",
+		"/var/www/html/Ci_User/application/views/users/login.php",
+		"/var/www/html/Ci_User/application/views/users/registration.php",
+		"/var/www/html/Ci_User/application/config/autoload.php",
+		"/var/www/html/simpleLogin/application/config/config.php",
+		"/var/www/html/simpleLogin/application/libraries/mailer/mailer_config .php",
+		"/var/www/html/simpleLogin/application/config/database.php",
+		"/var/www/html/simpleLogin/docs/database/simple_login_dump.sql",
+		"/home/auf/Documents/niceanimation/index.html",
+		"/home/auf/Documents/Web/angel/style.css",
+		"/home/auf/Documents/Web/angel/customizeScrollbar.html",
+		"/home/auf/Documents/Web/angel/textEffect.html",
+		"/var/www/html/mediaTechDynamique/config/database.php",
+		"/home/auf/Bureau/navbar/commande.html",
+		"/home/auf/Bureau/navbar/produits.html",
+		"/home/auf/Bureau/navbar/aPropos.html",
+		"/home/auf/Documents/Web/angel/animatedFullScreenSearchBox.html",
+		"/var/www/html/boutiqueStatique/commandes.html",
+		"/var/www/html/boutiqueStatique/produits.html",
+		"/home/auf/Bureau/repTest/dom.html",
+		"/home/auf/Documents/dji/AdminLTE-2.4.3/index.html",
+		"/home/auf/Documents/dji/Samane",
+		"/home/auf/Documents/dji/Samane/css/forum.css",
+		"/home/auf/Documents/dji/Samane/forum.html",
+		"/var/www/html/moncv/moncv.html",
+		"/var/www/html/moncv/cv.html",
+		"/home/auf/.config/sublime-text-3/Packages/User/Emmet.sublime-settings",
+		"/home/auf/.config/sublime-text-3/Packages/Emmet/Default (Linux).sublime-keymap",
+		"/home/auf/Documents/dji/Samane/team.html",
+		"/home/auf/monCv/monCv.html",
+		"/home/auf/.config/sublime-text-3/Packages/Emmet/Emmet.sublime-settings",
+		"/var/www/monCv/monCv.html",
+		"/var/www/html/index.html",
+		"/home/auf/Documents/dji/Samane/index.html",
+		"/home/auf/Documents/dji/Samane/testimonial4.html",
+		"/home/auf/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/auf/Bureau/test.html",
+		"/home/auf/.config/sublime-text-3/Packages/Package Control/Package Control.sublime-settings"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"scripts/",
+			"styles/",
+			"<li",
+			"icon"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"js/",
+			"css/",
+			"fa"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 707,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								155,
+								155
+							]
+						],
+						"settings":
+						{
+							"colorcode": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "nodeJs.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4637,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								366,
+								366
+							]
+						],
+						"settings":
+						{
+							"colorcode": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "vueJs.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7785,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								366,
+								366
+							]
+						],
+						"settings":
+						{
+							"colorcode": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "jquery.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6819,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								365,
+								365
+							]
+						],
+						"settings":
+						{
+							"colorcode": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 19.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "javascript.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7995,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								369,
+								369
+							]
+						],
+						"settings":
+						{
+							"colorcode": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "ajax.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5211,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								279,
+								279
+							]
+						],
+						"settings":
+						{
+							"colorcode": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1093,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								249,
+								249
+							]
+						],
+						"settings":
+						{
+							"colorcode": true,
+							"open_with_edit": true,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "js/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 621,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								606,
+								606
+							]
+						],
+						"settings":
+						{
+							"colorcode": true,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 61.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "veilleJs.sublime-project",
+	"replace":
+	{
+		"height": 92.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 225.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>NODE JS</title>
+	<link rel="stylesheet" href="css/materialize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+	
+</head>
+
+<body>
+	<div id="menu">
+		<div id="leftoptions">
+			<a href="#box1" id="link1" title="">Définition</a>
+			<a href="#box2" id="link2" title="">Utilité</a>
+		</div>
+		
+		<div id="logo"><a href="index.html">Vue Js</a></div>
+		
+		<div id="rightoptions">
+			<a href="#box3" id="link3" title="">Installation</a>
+			<a href="#box4" id="link4" title="">Utilisation</a>
+		</div>
+	</div>
+	<div id="box1">
+		
+		<div class="col s6 offset-s3 card-panel dark wow fadeInLeft" data-duration="2s">
+		 <blockquote>
+  VueJS est un framework JavaScript progressif utilisé pour développer des interfaces web interactives.
+Le focus est plus sur la partie vue, qui est le frontend. Il est très facile d'intégrer avec
+d'autres projets et bibliothèques.
+    </blockquote>
+    </div>
+
+
+	</div>
+<div id="box2">
+		<div class="row">
+		<div class="col s6 offset-s3 card-panel dark wow fadeInRight" data-duration="2s">
+		     <ul class="collapsible popout">
+    <li>
+      <div class="collapsible-header">Virtual DOM</div>
+      <div class="collapsible-body">VueJS utilise le DOM virtuel, qui est également utilisé par d'autres frameworks tels que React,
+Ember, etc. Les modifications ne sont pas apportées au DOM, à la place une réplique du DOM est créée
+qui est présent sous la forme de structures de données JavaScript. Chaque fois que des changements doivent être
+faits, ils sont faits aux structures de données JavaScript et ce dernier est comparé avec le
+structure de données originale. Les modifications finales sont ensuite mises à jour vers le DOM réel, que l'utilisateur
+verra changer. C'est bon en terme d'optimisation, c'est moins cher et les changements
+peut être fait à un rythme plus rapide.</div>
+    </li>
+    <li>
+      <div class="collapsible-header">Data Binding</div>
+      <div class="collapsible-body"> La fonctionnalité de liaison de données aide à manipuler ou attribuer des valeurs aux attributs HTML, modifier la
+style, assigner des classes à l'aide de la directive de liaison appelée v-bind disponible avec VueJS.</div>
+    </li>
+    <li>
+      <div class="collapsible-header">Components</div>
+      <div class="collapsible-body">
+Les composants sont l'une des caractéristiques importantes de VueJS qui permet de créer des éléments personnalisés,
+qui peut être réutilisé en HTML.</div>
+    </li>
+      <li>
+      <div class="collapsible-header">Event Handling</div>
+      <div class="collapsible-body">
+v-on est l'attribut ajouté aux éléments DOM pour écouter les événements dans VueJS.</div>
+    </li>
+      <li>
+      <div class="collapsible-header">Computed Properties</div>
+      <div class="collapsible-body">
+C'est l'une des caractéristiques importantes de VueJS. Cela aide à écouter les changements apportés au
+Éléments d'interface utilisateur et effectue les calculs nécessaires. Il n'y a pas besoin de codage supplémentaire
+pour ça.</div>
+    </li>
+  <li>
+      <div class="collapsible-header">Templates</div>
+      <div class="collapsible-body">
+VueJS fournit des modèles HTML qui lient le DOM aux données de l'instance de Vue. Vue
+compile les modèles dans les fonctions virtuelles de rendu DOM. Nous pouvons utiliser le modèle
+des fonctions de rendu et pour ce faire, nous devons remplacer le modèle avec la fonction de rendu..</div>
+    </li>
+ 
+  </ul>
+
+	</div>
+	</div>
+	</div>
+	<div id="box3">
+			
+
+			 <ul class="collapsible popout  wow fadeInUp" data-duration="2s">
+		    <li>
+		      <div class="collapsible-header">Méthode 1 ||  Utiliser directment balise script dans HTML.</div>
+		      <div class="collapsible-body">
+							<div class="col s6 offset-s3 card-panel dark" >
+		      	<blockquote>
+		      		
+Allez sur le site d'accueil https://vuejs.org/v2/guide/installation.html de VueJS et
+Téléchargez la vue.js selon vos besoins et inclure dans HTML. Il existe deux versions à utiliser - la version de production et
+version de développement. La version de développement n'est pas minimisée, alors que la production oui.
+						</blockquote>
+					</div>				
+		      </div>
+		    </li>
+		    <li>
+		      <div class="collapsible-header">Méthode 2 ||  EN Utilisant le CDN</div>
+		      <div class="collapsible-body">
+							<div class="col s6 offset-s3 card-panel dark" >
+		      <blockquote>
+		      	Nous pouvons également commencer à utiliser le fichier VueJS de la bibliothèque CDN. Le lien https://unpkg.com/vue
+donne la dernière version de VueJS. VueJS est également disponible sur jsDelivr
+(https://cdn.jsdelivr.net/npm/vue/dist/vue.js) et cdnjs
+(https://cdnjs.cloudflare.com/ajax/libs/vue/2.4.0/vue.js).
+Nous pouvons héberger les fichiers de notre côté, si nécessaire et commencer avec le développement de VueJS.
+					</blockquote>
+				</div>
+		      </div>
+		    </li>
+		    <li>
+		      <div class="collapsible-header">Méthode 3 ||  En utilisant npm.</div>
+		      <div class="collapsible-body">
+							<div class="col s6 offset-s3 card-panel dark" >
+		      	<blockquote>
+		      		
+Pour les applications à grande échelle avec VueJS, il est recommandé d'installer en utilisant le paquet npm.
+Il est livré avec Browserify et Webpack avec d'autres outils nécessaires, qui aident à la
+développement. Voici la commande à installer en utilisant npm:
+<code>
+	npm install vue
+</code>
+						</blockquote>
+					</div>
+		      </div>
+		    </li>
+		  </ul>
+	</div>
+	<div id="box4">
+			<div class="col s6 offset-s3 card-panel dark" >
+		<div class="col s6 card-panel dark  wow fadeInUp" data-duration="2s">
+
+			<blockquote>Vuejs 2 est similaire à React et Angular 2 de plusieurs façons. Il existe quelques concepts clés qui vous aideront à démarrer facilement. Je vais donner un aperçu de base de ces concepts pour nourrir votre compréhension de Vuejs . Elles sont:</blockquote>
+		</div>
+			<ul class="collapsible popout wow fadeInDown" data-wow-duration="2s">
+			 	 <li>
+		      <div class="collapsible-header">Syntaxe</div>
+		      <div class="collapsible-body">
+		      	<div class="row">
+		      		<div class="col s5">
+		      			<img src="img/vue1.png" alt="">
+		      		</div>
+		      		<div class=" col s5 offset-s1">
+		      			<img src="img/vue2.png" alt="">
+		      		</div>
+		      	</div>
+		   
+		      </div>
+		    </li>
+		    <li>
+		      <div class="collapsible-header">Directives</div>
+		      <div class="collapsible-body">
+		      		<div class="row">
+		      		<div class="col s5">
+		      			<img src="img/vue3.png" alt="">
+		      		</div>
+		      		<div class=" col s5 offset-s1">
+		      			<img src="img/vue4.png" alt="">
+		      		</div>
+		      	</div>
+		      	<hr>
+		      	<div class="row">
+		      		<div class="col s5">
+		      			<img src="img/vue5.png" alt="">
+		      		</div>
+		      		<div class=" col s5 offset-s1">
+		      			<img src="img/vue6.png" alt="">
+		      		</div>
+		      	</div>
+		   
+		      </div>
+		    </li>
+		    <li>
+		      <div class="collapsible-header">Composants</div>
+		      <div class="collapsible-body">
+		      			<div class="row">
+		      		<div class="col s5">
+		      			<img src="img/vue3.png" alt="">
+		      		</div>
+		      		<div class=" col s5 offset-s1">
+		      			<img src="img/vue4.png" alt="">
+		      		</div>
+		      	</div>
+		      	<hr>
+		      	<div class="row">
+		      		<div class="col s5">
+		      			<img src="img/vue5.png" alt="">
+		      		</div>
+		      		<div class=" col s5 offset-s1">
+		      			<img src="img/vue6.png" alt="">
+		      		</div>
+		      	</div>
+				 <hr>
+				 <div class="col s6 offset-s3 card-panel dark" >
+		      <blockquote>
+		      Vuejs 2 fournit des méthodes qui sont déclenchées à divers points depuis la création d'un composant jusqu'à la destruction du composant. C'est ce qu'on appelle le cycle de vie de l' instance , également connu sous le nom de Lifecyle du composant . Chaque instance de Vue passe par une série d'étapes d'initialisation lors de sa création - par exemple, elle doit configurer l'observation des données, compiler le modèle, monter l'instance sur le DOM et mettre à jour le DOM lorsque les données changent. Vous pouvez donc exécuter une logique personnalisée dans ces hooks. Ces crochets du cycle de vie sont :
+		      <i class="teal-text">beforeCreate, created, beforeMount, mounted, beforeUpdate, updated, activated, deactivated, beforeDestroyet destroyed.</i></blockquote>
+				</div>	
+				</div>
+
+		    </li>
+		  </ul>
+   		 </div>
+	</div>
+
+<div class="fixed-action-btn">
+  <a class="btn-floating btn-pulse pulse btn-large modal-trigger btn tooltipped teal" data-position="left" data-tooltip="Quelques Frameworks"  href="#frameworks" >
+    <i class="large material-icons">list</i>
+  </a>
+</div>
+<div id="frameworks" class="modal bottom-sheet">
+    <div class="modal-content">
+      <h4>Exemples de Frameworks Javascript</h4>
+      	 <table class="centered highlight">
+        <thead>
+          <tr>
+              <th>Nom</th>
+              <th>Définition</th>
+              <th>Apparition</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Angular 2</td>
+            <td>MVC Framework</td>
+            <td>2016</td>
+          </tr>
+          <tr>
+            <td>React Js</td>
+            <td>Javascript Library</td>
+            <td>2013</td>
+          </tr>
+          <tr>
+            <td>Ember Js</td>
+            <td>MVC Framework</td>
+            <td>2011</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+<script src="js/jquery.js"></script>
+<script src="js/wow.js"></script>
+<script type="text/javascript">hljs.initHighlightingOnLoad();</script>
+<script src="js/materialize.js"</script>
+<script src="js/main.js"></script>
+
+<script type="text/javascript">
+	  $(document).ready(function(){
+    $('.collapsible').collapsible();
+    	 new WOW().init();
+    	 $('.modal').modal();
+    	  $('.tooltipped').tooltip();
+  });
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>AJAX</title>
+	<link rel="stylesheet" href="css/materialize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/animate.css">
+	  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+	
+</head>
+
+<body>
+	<div id="menu">
+		<div id="leftoptions">
+			<a href="#box1" id="link1" title="">Définition</a>
+			<a href="#box2" id="link2" title="">MAJ ciblée</a>
+		</div>
+		
+		<div id="logo"><a href="index.html">AJAX</a></div>
+		
+		<div id="rightoptions">
+			<a href="#box3" id="link3" title="">ECommerce</a>
+			<a href="#box4" id="link4" title="">Asynchrone</a>
+		</div>
+	</div>
+	<div id="box1">
+		
+		<div class="col s6 offset-s3 card-panel dark wow fadeInDown" data-duration="3s">
+		 <blockquote>
+   Inventé début 2005 par Jesse J. Garrett, le terme AJAX (Asynchronous JavaScript And XML) désigne un ensemble de technologies existant depuis plusieurs années, dont une utilisation ingénieuse rend possibles des fonctionnalités Web novatrices et utiles, qui rencontrent un succès grandissant depuis l’apparition d’applications telles que Google Suggest, Google Maps, writely, etc. <br>
+Grâce à Ajax, il est possible de bâtir des applications Web au comportement très proche de celui des applications Windows ou MacOS natives. L’avantage essentiel d’Ajax réside dans une plus grande réactivité de l’interface par rapport au Web classique.
+    </blockquote>
+    </div>
+
+
+	</div>
+	<div id="box2">
+		<div class="row">
+		<div class="col s5 offset-s1 card-panel dark wow fadeInDown" data-duration="3s">
+		    <blockquote>
+		    	Dans une application Web classique, lorsque l’utilisateur clique sur un lien ou valide un formulaire, le navigateur envoie une requête au serveur HTTP, qui lui retourne en
+réponse une nouvelle page, qui remplace purement et simplement la page courante.
+
+		    </blockquote>
+
+	</div>
+	<div class="col s5 offset-s1 card-panel dark wow fadeInUp" data-duration="3s">
+		<img src="img/1.jpg" alt="">
+	</div>
+	</div>
+	</div>
+	<div id="box3">
+			<div class="row">
+		<div class="col s5 offset-s1 card-panel dark wow fadeInDown" data-duration="3s">
+		    <blockquote>
+Dans l’exemple ecommerce, lorsque l’utilisateur change la quantité d’un produit dans son panier, une requête HTTP est envoyée par JavaScript. À réception de la réponse, seules les trois zones concernées sont mises à jour. Le volume transitant sur le réseau est ainsi réduit, de même que le travail demandé au serveur, qui n’a plus à reconstruire toute la page. La communication peut dés lors être plus rapide
+
+		    </blockquote>
+
+	</div>
+	<div class="col s5 offset-s1 card-panel dark wow fadeInUp" data-duration="3s">
+		<img src="img/2.jpg" alt="">
+	</div>
+	</div>
+	</div>
+	<div id="box4">
+		<div class="col s5 offset-s1 card-panel dark wow fadeInDown" data-duration="3s">
+		<blockquote>
+			La deuxième caractéristique d’Ajax est que la communication avec le serveur via
+JavaScript peut être asynchrone. La requête est envoyée au serveur sans attendre la
+réponse, le traitement à effectuer à la réception de celle-ci étant spécifié auparavant.
+JavaScript se charge d’exécuter ce traitement quand la réponse arrive. L’utilisateur peut
+de la sorte continuer à interagir avec l’application, sans être bloqué par l’attente de la
+réponse, contrairement au Web classique. Cette caractéristique est aussi importante que
+la mise à jour partielle des pages.
+		</blockquote>
+			</div>
+	</div>
+
+	<div class="fixed-action-btn">
+  <a class="btn-floating btn-pulse pulse btn-large modal-trigger btn tooltipped teal" data-position="left" data-tooltip="Quelques Frameworks"  href="#frameworks" >
+    <i class="large material-icons">list</i>
+  </a>
+</div>
+<div id="frameworks" class="modal bottom-sheet">
+    <div class="modal-content">
+      <h4>Exemples de Frameworks Javascript</h4>
+      	 <table class="centered highlight">
+        <thead>
+          <tr>
+              <th>Nom</th>
+              <th>Définition</th>
+              <th>Apparition</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Angular 2</td>
+            <td>MVC Framework</td>
+            <td>2016</td>
+          </tr>
+          <tr>
+            <td>React Js</td>
+            <td>Javascript Library</td>
+            <td>2013</td>
+          </tr>
+          <tr>
+            <td>Ember Js</td>
+            <td>MVC Framework</td>
+            <td>2011</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+<script src="js/jquery.js"></script>
+<script src="js/wow.js"></script>
+<script type="text/javascript">hljs.initHighlightingOnLoad();</script>
+<script src="js/materialize.js"</script>
+<script src="js/main.js"></script>
+
+<script type="text/javascript">
+	  $(document).ready(function(){
+    $('.collapsible').collapsible();
+    	 new WOW().init();
+    	 $('.modal').modal();
+    	  $('.tooltipped').tooltip();
+  });
+</script>
+
+
+</body>
+</html>
